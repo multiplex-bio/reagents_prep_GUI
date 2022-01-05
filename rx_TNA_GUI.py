@@ -17,7 +17,7 @@ while not is_number:
             is_number = True
 
     except ValueError:
-        st.write("\**nDebes ingresar un número entre 1 y 94**")
+        st.write("\n**Debes ingresar un número entre 1 y 94**")
 
 
 # Calculamos la cantidad de volumen que vamos a usar para cada reactivo
