@@ -66,10 +66,10 @@ elif protocol == "qPCR":
 
     st.write("Usar el programa '00_qPCR_prep_2X' en la mantis")
 
-    st.write("\n*OJO: en la mantis sólo se deben seleccionar los wells que corresponden a la primera mitad de las replicas totales, ya que el mastermix preparado por la mantis está a una concentración de 2X.")
+    st.write("\n*OJO: en la mantis sólo se deben seleccionar los wells que corresponden a la primera mitad de las replicas totales, ya que el mastermix preparado por la mantis está a una concentración de 2X.*")
     st.write("**El robot separará el mastermix 2x en las dos réplicas 1x**")
 
     st.write("2. Colocar los tubos eppendorf con los controles negativos y positivos de qPCR:")
-    st.write("\t 2.1 El control positivo se debe colocar en la posición A1 del 'eppendorf_rack' ubicado en el slot 9")
+    st.write("\t2.1 El control positivo se debe colocar en la posición A1 del 'eppendorf_rack' ubicado en el slot 9")
     st.write("\t 2.2 El control negativo se debe colocar en la posición D1 del 'eppendorf_rack' ubicado en el slot 9")
     st.write("Correr el protocolo 'qPCR_samples_distribution' en el OT-2. Debes seguir las instrucciones que la App del robot entregará")
