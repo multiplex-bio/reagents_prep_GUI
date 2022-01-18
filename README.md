@@ -1,3 +1,5 @@
+# GUI to help users to run the protocols used in PNRSV diagnostics with Opentrons
+
 This app is intended to provide help to the scientist that will run the protocols used in our laboratory.
 
 The user can interact with the app so they can select the protocol they want to run (TNA, RT or qPCRT) and the app will help them in the following ways:
